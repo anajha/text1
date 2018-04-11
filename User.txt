@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="col-md-offset-1">
+    <h1>
+      Welcome to !
+    </h1>
+  </div>
+  <div class="row" style="width: 50%">
+    <div class="col">
+      <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button class="dropdown-item">Action - 1</button>
+          <button class="dropdown-item">Another Action</button>
+          <button class="dropdown-item">Something else is here</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div ngbDropdown class="d-inline-block" style="width: 30%">
+        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button class="dropdown-item">Action - 1</button>
+          <button class="dropdown-item">Another Action</button>
+          <button class="dropdown-item">Something else is here</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div ngbDropdown class="d-inline-block" style="width: 30%">
+        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button class="dropdown-item">Action - 1</button>
+          <button class="dropdown-item">Another Action</button>
+          <button class="dropdown-item">Something else is here</button>
+        </div>
+      </div>a
+    </div>
+    <a routerLink="/users"> List Users</a>
+  <a style="margin-left:10px" routerLink="/add">Add User</a>
+  <br/>
+  <router-outlet></router-outlet>
+  </div>
